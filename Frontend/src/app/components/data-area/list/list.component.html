@@ -1,0 +1,33 @@
+<div class="list">
+<h1>Follow Your Events! </h1>
+<h2>Get event by type!</h2>
+
+<select (change)="displayEvents($event)">
+    <option selected disabled value="">Select Type</option>
+    <option *ngFor="let t of types" value="{{t.typeId}}">{{t.type}}</option>
+</select>
+<table class="styled-table"    *ngIf="events?.length">
+  
+    <thead>
+        <tr>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Address</th>
+        <th>Participants</th>
+        <th>Delete</th>
+        <th>Is Passed</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of events">
+        <td>{{e.date | date: 'dd/MM/yyyy HH:mm'}}</td>
+        <td>{{e.description}}</td>
+        <td>{{e.address}}</td>
+        <td>{{e.participants}}</td>
+        <td *ngIf="isnotPassed(e.date)">  The event   on {{e.date | date: 'dd/MM/yyyy HH:mm'}}  has not  passed</td>
+        <td *ngIf="!isnotPassed(e.date)"> The event  on  {{e.date  | date: 'dd/MM/yyyy HH:mm'}}  already passed</td>
+        <td><button (click)="deleteEvent(e.id)">❌</button></td>
+        </tr>
+    </tbody>
+</table>
+</div>

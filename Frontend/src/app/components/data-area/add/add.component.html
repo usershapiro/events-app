@@ -1,0 +1,31 @@
+
+
+<div class="img">
+<div class="f">
+    <form (ngSubmit)="send()" ngNativeValidate>
+         <h1>Add an Event!!!</h1>
+         <label for="">choose an event type</label>
+        <select name="typeId" [(ngModel)]="event.typeId" required>
+            <option selected disabled value=""> Select Type </option>
+            <option *ngFor="let t of types" value={{t.typeId}}>{{t.type}}</option>
+        </select>
+     
+
+      <label for="fdate">date</label>
+      <input type="datetime-local"  name="date" placeholder="Date.." [(ngModel)]="event.date" required >
+       
+      <label for="lname">description</label>
+      <input type="text"  name="description" placeholder="Description.." [(ngModel)]="event.description" required >
+  
+      <label for="lname">address</label>
+      <input type="text"  name="address" placeholder="Address.."  [(ngModel)]="event.address" required>
+    
+      
+      <label for="lname">discount</label>
+      <input type="number"  name="participants" placeholder="Participants.."  [(ngModel)]="event.participants" required>
+    
+    
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>

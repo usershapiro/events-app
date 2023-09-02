@@ -1,0 +1,23 @@
+h1 , h2 ,h3{
+ 
+
+color: rgb(33, 107, 102);
+font-size: xxx-large;
+font-family: 'Nothing You Could Do', cursive;
+
+}
+.home{
+    background-image: url("../../../../assets/premium_photo-1664790560022-324e031a6352.webp");
+    
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:700px;
+    margin-top: 0px;
+}
+.text{
+    background-color: rgb(217, 246, 244);
+   opacity: 0.4;
+}

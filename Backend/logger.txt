@@ -1,0 +1,164 @@
+25.4.2023, 1:47:00 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 1:50:19 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 1:50:22 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 1:52:19 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 1:57:40 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 2:19:09 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 2:22:52 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 2:29:54 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 20:35:56 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 20:36:03 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 20:51:00 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 20:51:02 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 20:51:03 	 ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 20:52:20 	 ER_ACCESS_DENIED_ERROR: Access denied for user 'root@localhost'@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 20:52:21 	 ER_ACCESS_DENIED_ERROR: Access denied for user 'root@localhost'@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 20:52:23 	 ER_ACCESS_DENIED_ERROR: Access denied for user 'root@localhost'@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 20:53:20 	 ER_ACCESS_DENIED_ERROR: Access denied for user 'root@localhost'@'localhost' (using password: NO)----------------------------------------------
+25.4.2023, 21:17:50 	 Route /api/product-by-categoryId/1 not exist----------------------------------------------
+25.4.2023, 22:42:22 	 ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'----------------------------------------------
+25.4.2023, 22:43:15 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':00:00.000Z,
+     2023-04-12T21:00:00.000Z,
+     2
+     )' at line 4----------------------------------------------
+25.4.2023, 22:43:45 	 ER_BAD_FIELD_ERROR: Unknown column 'cucumbers' in 'field list'----------------------------------------------
+25.4.2023, 22:44:33 	 ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'field list'----------------------------------------------
+25.4.2023, 22:45:53 	 ER_BAD_FIELD_ERROR: Unknown column 'cucumbers' in 'field list'----------------------------------------------
+25.4.2023, 22:46:29 	 ER_BAD_FIELD_ERROR: Unknown column 'cucumbers' in 'field list'----------------------------------------------
+25.4.2023, 22:58:54 	 ER_BAD_FIELD_ERROR: Unknown column 'cucumbers' in 'field list'----------------------------------------------
+25.4.2023, 22:58:56 	 ER_BAD_FIELD_ERROR: Unknown column 'cucumbers' in 'field list'----------------------------------------------
+25.4.2023, 22:59:00 	 ER_BAD_FIELD_ERROR: Unknown column 'cucumbers' in 'field list'----------------------------------------------
+25.4.2023, 22:59:30 	 ER_BAD_FIELD_ERROR: Unknown column 'cucumbers' in 'field list'----------------------------------------------
+25.4.2023, 22:59:31 	 ER_BAD_FIELD_ERROR: Unknown column 'cucumbers' in 'field list'----------------------------------------------
+25.4.2023, 23:15:45 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'rolls,
+     2023-04-03T21:00:00.000Z,
+     2023-04-05T21:00:00.000Z,
+     3,
+...' at line 3----------------------------------------------
+26.4.2023, 0:54:23 	 ER_BAD_FIELD_ERROR: Unknown column 'products.productsId' in 'where clause'----------------------------------------------
+28.4.2023, 0:43:42 	 Route /api/kittens not exist----------------------------------------------
+28.4.2023, 0:43:42 	 Route /favicon.ico not exist----------------------------------------------
+28.4.2023, 0:43:53 	 Route /api/kittens not exist----------------------------------------------
+28.4.2023, 0:44:03 	 Route / not exist----------------------------------------------
+28.4.2023, 2:03:27 	 ER_BAD_FIELD_ERROR: Unknown column 'P.categoryId' in 'where clause'----------------------------------------------
+29.4.2023, 23:32:15 	 Route /api/products[object%20Object] not exist----------------------------------------------
+29.4.2023, 23:32:59 	 Route /api/products[object%20Object] not exist----------------------------------------------
+29.4.2023, 23:37:46 	 Route /api/products[object%20Object] not exist----------------------------------------------
+29.4.2023, 23:41:33 	 Route /api/products[object%20Object] not exist----------------------------------------------
+30.4.2023, 15:09:05 	 id 7 not exist----------------------------------------------
+1.5.2023, 11:17:08 	 connect ECONNREFUSED ::1:3306----------------------------------------------
+1.5.2023, 11:17:22 	 connect ECONNREFUSED ::1:3306----------------------------------------------
+1.5.2023, 14:59:39 	 ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`osher-ad`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`productCategoryId`) REFERENCES `categories` (`categoryId`))----------------------------------------------
+1.5.2023, 15:00:04 	 ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`osher-ad`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`productCategoryId`) REFERENCES `categories` (`categoryId`))----------------------------------------------
+1.5.2023, 15:00:35 	 ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`osher-ad`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`productCategoryId`) REFERENCES `categories` (`categoryId`))----------------------------------------------
+3.5.2023, 12:57:43 	 ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`osher-ad`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`productCategoryId`) REFERENCES `categories` (`categoryId`))----------------------------------------------
+3.5.2023, 13:07:41 	 ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`osher-ad`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`productCategoryId`) REFERENCES `categories` (`categoryId`))----------------------------------------------
+13.6.2023, 3:32:48 	 Route /api/types%20%20 not exist----------------------------------------------
+13.6.2023, 3:32:55 	 Route /api/types%20%20 not exist----------------------------------------------
+13.6.2023, 3:54:46 	 ER_NO_SUCH_TABLE: Table 'events-app.typess' doesn't exist----------------------------------------------
+13.6.2023, 3:55:17 	 ER_NO_SUCH_TABLE: Table 'events-app.typess' doesn't exist----------------------------------------------
+13.6.2023, 4:01:57 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 4:04:01 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 4:07:17 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 11:50:23 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 11:51:27 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 11:51:33 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 11:52:20 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 11:52:52 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 11:53:05 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 11:53:07 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 11:54:58 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 11:55:11 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 12:00:43 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 12:00:52 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 12:01:14 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 12:13:21 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 12:13:22 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 12:25:34 	 ER_BAD_NULL_ERROR: Column 'typeId' cannot be null----------------------------------------------
+13.6.2023, 12:28:07 	 Unexpected token } in JSON at position 201----------------------------------------------
+13.6.2023, 12:28:16 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:28:27 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:28:28 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:28:48 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:30:16 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:30:18 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:30:29 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:31:37 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:32:53 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:32:55 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:32:56 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:34:24 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:34:25 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:36:03 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:36:14 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:36:16 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:36:29 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:36:38 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:37:45 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:37:46 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:37:48 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:37:49 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:37:50 	 ER_BAD_NULL_ERROR: Column 'address' cannot be null----------------------------------------------
+13.6.2023, 12:41:19 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:41:40 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:43:25 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:51:52 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:51:53 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:51:54 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:51:56 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:53:28 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:53:37 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:53:43 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:53:44 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:54:55 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:54:57 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:54:58 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:55:05 	 "description" is not allowed----------------------------------------------
+13.6.2023, 12:55:51 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6----------------------------------------------
+13.6.2023, 12:56:05 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6----------------------------------------------
+13.6.2023, 12:56:06 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6----------------------------------------------
+13.6.2023, 12:59:27 	 "description" is not allowed----------------------------------------------
+13.6.2023, 13:01:53 	 "description" is not allowed----------------------------------------------
+13.6.2023, 13:20:22 	 "id" is not allowed----------------------------------------------
+13.6.2023, 13:20:38 	 "description" is not allowed----------------------------------------------
+13.6.2023, 13:34:46 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'----------------------------------------------
+14.6.2023, 0:46:21 	 "address" must be a string----------------------------------------------
+14.6.2023, 0:46:23 	 "address" must be a string----------------------------------------------
+14.6.2023, 0:46:23 	 "address" must be a string----------------------------------------------
+14.6.2023, 0:46:24 	 "address" must be a string----------------------------------------------
+14.6.2023, 0:46:25 	 "address" must be a string----------------------------------------------
+14.6.2023, 3:31:07 	 id 3 not exist----------------------------------------------
+14.6.2023, 3:31:13 	 id 3 not exist----------------------------------------------
+14.6.2023, 3:31:42 	 id 3 not exist----------------------------------------------
+14.6.2023, 3:31:46 	 id 3 not exist----------------------------------------------
+14.6.2023, 3:33:35 	 id 3 not exist----------------------------------------------
+14.6.2023, 3:33:39 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:37:57 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:38:05 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:41:25 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:41:37 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:44:57 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:45:05 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:45:54 	 id 1 not exist----------------------------------------------
+15.6.2023, 20:45:59 	 id 1 not exist----------------------------------------------
+15.6.2023, 20:46:04 	 id 1 not exist----------------------------------------------
+15.6.2023, 20:46:34 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:46:49 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:46:55 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:47:30 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:48:27 	 id 1 not exist----------------------------------------------
+15.6.2023, 20:49:43 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:49:55 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:49:59 	 id 3 not exist----------------------------------------------
+15.6.2023, 20:50:07 	 id 1 not exist----------------------------------------------
+15.6.2023, 20:50:12 	 id 1 not exist----------------------------------------------
+16.6.2023, 0:50:46 	 id 1 not exist----------------------------------------------
+16.6.2023, 0:51:15 	 id 1 not exist----------------------------------------------
+16.6.2023, 0:51:19 	 id 1 not exist----------------------------------------------
+16.6.2023, 0:51:25 	 id 1 not exist----------------------------------------------
+16.6.2023, 0:52:25 	 id 3 not exist----------------------------------------------
+16.6.2023, 0:52:38 	 id 3 not exist----------------------------------------------
+18.6.2023, 0:42:06 	 id 1 not exist----------------------------------------------
+18.6.2023, 0:46:29 	 id 2 not exist----------------------------------------------
+18.6.2023, 0:46:34 	 id 2 not exist----------------------------------------------
+18.6.2023, 0:46:52 	 id 2 not exist----------------------------------------------
